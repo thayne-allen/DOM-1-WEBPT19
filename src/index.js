@@ -80,12 +80,12 @@ navlink = selectAll('header nav a');
 navlink.forEach(e => e.style.color = 'green');
 
 // logo
-logoimg.setAttribute('src', siteContent['nav']['img-src']);
+logoimg.setAttribute('src', siteContent['img']['logo-img']);
 
 // cta
 ctah.innerText = siteContent['cta']['h1'];
 ctab.innerText = siteContent['cta']['button'];
-ctai.setAttribute('src', siteContent['cta']['img-src']);
+ctai.setAttribute('src', siteContent['img']['header-img']);
 
 // features
 toph[0].innerText = siteContent['main-content']['features-h4'];
@@ -96,7 +96,7 @@ toph[1].innerText = siteContent['main-content']['about-h4'];
 topc[1].innerText = siteContent['main-content']['about-content'];
 
 // middle image
-middleimg.setAttribute('src', siteContent['main-content']['middle-img-src']);
+middleimg.setAttribute('src', siteContent['img']['mid-page-img']);
 
 // services
 bottomh[0].innerText = siteContent['main-content']['services-h4'];
